@@ -1,0 +1,132 @@
+<turns>
+    <interval begin="0" end="3600">
+        <fromEdge id="0001">
+            <toEdge id="d1i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="0010">
+            <toEdge id="b4i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="0100">
+            <toEdge id="a3i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="0111">
+            <toEdge id="c4i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="1000">
+            <toEdge id="a2i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="1011">
+            <toEdge id="c1i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="1101">
+            <toEdge id="d2i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="1110">
+            <toEdge id="b3i" probability="100"/>
+        </fromEdge>
+        <fromEdge id="a1i">
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a2i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a2o">
+            <toEdge id="0010" probability="100"/>
+        </fromEdge>
+        <fromEdge id="a3i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a3o">
+            <toEdge id="0001" probability="100"/>
+        </fromEdge>
+        <fromEdge id="a4i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="b1i">
+            <toEdge id="b2o" probability="33.33333333"/>
+            <toEdge id="b3o" probability="33.33333333"/>
+            <toEdge id="b4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="b2i">
+            <toEdge id="b1o" probability="33.33333333"/>
+            <toEdge id="b3o" probability="33.33333333"/>
+            <toEdge id="b4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="b3i">
+            <toEdge id="b1o" probability="33.33333333"/>
+            <toEdge id="b2o" probability="33.33333333"/>
+            <toEdge id="b4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="b3o">
+            <toEdge id="1011" probability="100"/>
+        </fromEdge>
+        <fromEdge id="b4i">
+            <toEdge id="b1o" probability="33.33333333"/>
+            <toEdge id="b2o" probability="33.33333333"/>
+            <toEdge id="b3o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="b4o">
+            <toEdge id="1000" probability="100"/>
+        </fromEdge>
+        <fromEdge id="c1i">
+            <toEdge id="c2o" probability="33.33333333"/>
+            <toEdge id="c3o" probability="33.33333333"/>
+            <toEdge id="c4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="c1o">
+            <toEdge id="1110" probability="100"/>
+        </fromEdge>
+        <fromEdge id="c2i">
+            <toEdge id="c1o" probability="33.33333333"/>
+            <toEdge id="c3o" probability="33.33333333"/>
+            <toEdge id="c4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="c3i">
+            <toEdge id="c1o" probability="33.33333333"/>
+            <toEdge id="c2o" probability="33.33333333"/>
+            <toEdge id="c4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="c4i">
+            <toEdge id="c1o" probability="33.33333333"/>
+            <toEdge id="c2o" probability="33.33333333"/>
+            <toEdge id="c3o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="c4o">
+            <toEdge id="1101" probability="100"/>
+        </fromEdge>
+        <fromEdge id="d1i">
+            <toEdge id="d2o" probability="33.33333333"/>
+            <toEdge id="d3o" probability="33.33333333"/>
+            <toEdge id="d4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="d1o">
+            <toEdge id="0100" probability="100"/>
+        </fromEdge>
+        <fromEdge id="d2i">
+            <toEdge id="d1o" probability="33.33333333"/>
+            <toEdge id="d3o" probability="33.33333333"/>
+            <toEdge id="d4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="d2o">
+            <toEdge id="0111" probability="100"/>
+        </fromEdge>
+        <fromEdge id="d3i">
+            <toEdge id="d1o" probability="33.33333333"/>
+            <toEdge id="d2o" probability="33.33333333"/>
+            <toEdge id="d4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="d4i">
+            <toEdge id="d1o" probability="33.33333333"/>
+            <toEdge id="d2o" probability="33.33333333"/>
+            <toEdge id="d3o" probability="33.33333333"/>
+        </fromEdge>
+    </interval>
+</turns>

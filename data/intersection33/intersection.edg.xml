@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+   <edge id="a1i" from="a1" to="a" priority="78" numLanes="3" speed="19.444" />
+   <edge id="a1o" from="a" to="a1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="a2i" from="a2" to="a" priority="78" numLanes="3" speed="19.444" />
+   <edge id="a2o" from="a" to="a2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="a3i" from="a3" to="a" priority="78" numLanes="3" speed="19.444" />
+   <edge id="a3o" from="a" to="a3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="a4i" from="a4" to="a" priority="78" numLanes="3" speed="19.444" />
+   <edge id="a4o" from="a" to="a4" priority="46" numLanes="3" speed="11.111" />
+   
+   <edge id="b1i" from="b1" to="b" priority="78" numLanes="3" speed="19.444" />
+   <edge id="b1o" from="b" to="b1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="b2i" from="b2" to="b" priority="78" numLanes="3" speed="19.444" />
+   <edge id="b2o" from="b" to="b2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="b3i" from="b3" to="b" priority="78" numLanes="3" speed="19.444" />
+   <edge id="b3o" from="b" to="b3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="b4i" from="b4" to="b" priority="78" numLanes="3" speed="19.444" />
+   <edge id="b4o" from="b" to="b4" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="c1i" from="c1" to="c" priority="78" numLanes="3" speed="19.444" />
+   <edge id="c1o" from="c" to="c1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="c2i" from="c2" to="c" priority="78" numLanes="3" speed="19.444" />
+   <edge id="c2o" from="c" to="c2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="c3i" from="c3" to="c" priority="78" numLanes="3" speed="19.444" />
+   <edge id="c3o" from="c" to="c3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="c4i" from="c4" to="c" priority="78" numLanes="3" speed="19.444" />
+   <edge id="c4o" from="c" to="c4" priority="46" numLanes="3" speed="11.111" />
+ 
+   <edge id="d1i" from="d1" to="d" priority="78" numLanes="3" speed="19.444" />
+   <edge id="d1o" from="d" to="d1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="d2i" from="d2" to="d" priority="78" numLanes="3" speed="19.444" />
+   <edge id="d2o" from="d" to="d2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="d3i" from="d3" to="d" priority="78" numLanes="3" speed="19.444" />
+   <edge id="d3o" from="d" to="d3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="d4i" from="d4" to="d" priority="78" numLanes="3" speed="19.444" />
+   <edge id="d4o" from="d" to="d4" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="e1i" from="e1" to="e" priority="78" numLanes="3" speed="19.444" />
+   <edge id="e1o" from="e" to="e1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="e2i" from="e2" to="e" priority="78" numLanes="3" speed="19.444" />
+   <edge id="e2o" from="e" to="e2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="e3i" from="e3" to="e" priority="78" numLanes="3" speed="19.444" />
+   <edge id="e3o" from="e" to="e3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="e4i" from="e4" to="e" priority="78" numLanes="3" speed="19.444" />
+   <edge id="e4o" from="e" to="e4" priority="46" numLanes="3" speed="11.111" />
+
+   
+   <edge id="f1i" from="f1" to="f" priority="78" numLanes="3" speed="19.444" />
+   <edge id="f1o" from="f" to="f1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="f2i" from="f2" to="f" priority="78" numLanes="3" speed="19.444" />
+   <edge id="f2o" from="f" to="f2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="f3i" from="f3" to="f" priority="78" numLanes="3" speed="19.444" />
+   <edge id="f3o" from="f" to="f3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="f4i" from="f4" to="f" priority="78" numLanes="3" speed="19.444" />
+   <edge id="f4o" from="f" to="f4" priority="46" numLanes="3" speed="11.111" />
+
+
+   <edge id="g1i" from="g1" to="g" priority="78" numLanes="3" speed="19.444" />
+   <edge id="g1o" from="g" to="g1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="g2i" from="g2" to="g" priority="78" numLanes="3" speed="19.444" />
+   <edge id="g2o" from="g" to="g2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="g3i" from="g3" to="g" priority="78" numLanes="3" speed="19.444" />
+   <edge id="g3o" from="g" to="g3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="g4i" from="g4" to="g" priority="78" numLanes="3" speed="19.444" />
+   <edge id="g4o" from="g" to="g4" priority="46" numLanes="3" speed="11.111" />
+
+ 
+   <edge id="h1i" from="h1" to="h" priority="78" numLanes="3" speed="19.444" />
+   <edge id="h1o" from="h" to="h1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="h2i" from="h2" to="h" priority="78" numLanes="3" speed="19.444" />
+   <edge id="h2o" from="h" to="h2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="h3i" from="h3" to="h" priority="78" numLanes="3" speed="19.444" />
+   <edge id="h3o" from="h" to="h3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="h4i" from="h4" to="h" priority="78" numLanes="3" speed="19.444" />
+   <edge id="h4o" from="h" to="h4" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="j1i" from="j1" to="j" priority="78" numLanes="3" speed="19.444" />
+   <edge id="j1o" from="j" to="j1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="j2i" from="j2" to="j" priority="78" numLanes="3" speed="19.444" />
+   <edge id="j2o" from="j" to="j2" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="j3i" from="j3" to="j" priority="78" numLanes="3" speed="19.444" />
+   <edge id="j3o" from="j" to="j3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="j4i" from="j4" to="j" priority="78" numLanes="3" speed="19.444" />
+   <edge id="j4o" from="j" to="j4" priority="46" numLanes="3" speed="11.111" />
+
+
+   <edge id="0010" from="a2" to="b4" priority="78" numLanes="3" speed="19.444" />
+   <edge id="1000" from="b4" to="a2" priority="46" numLanes="3" speed="11.111" />
+   
+   <edge id="1011" from="b3" to="c1" priority="78" numLanes="3" speed="19.444" />
+   <edge id="1110" from="c1" to="b3" priority="46" numLanes="3" speed="11.111" />
+  
+   <edge id="1101" from="c4" to="d2" priority="78" numLanes="3" speed="19.444" />
+   <edge id="0111" from="d2" to="c4" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="0100" from="d1" to="a3" priority="78" numLanes="3" speed="19.444" />
+   <edge id="0001" from="a3" to="d1" priority="46" numLanes="3" speed="11.111" />
+
+
+   <edge id="00-10" from="a4" to="e2" priority="78" numLanes="3" speed="19.444" />
+   <edge id="-1000" from="e2" to="a4" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="-10-11" from="e3" to="f1" priority="78" numLanes="3" speed="19.444" />
+   <edge id="-11-10" from="f1" to="e3" priority="46" numLanes="3" speed="11.111" />
+  
+   <edge id="-11-12" from="f3" to="g1" priority="78" numLanes="3" speed="19.444" />
+   <edge id="-12-11" from="g1" to="f3" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="-1202" from="g2" to="h4" priority="78" numLanes="3" speed="19.444" />
+   <edge id="02-12" from="h4" to="g2" priority="46" numLanes="3" speed="11.111" />
+ 
+   <edge id="0212" from="h2" to="j4" priority="78" numLanes="3" speed="19.444" />
+   <edge id="1202" from="j4" to="h2" priority="46" numLanes="3" speed="11.111" />
+  
+   <edge id="1211" from="j1" to="c3" priority="78" numLanes="3" speed="19.444" />
+   <edge id="1112" from="c3" to="j1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="0201" from="h1" to="d3" priority="78" numLanes="3" speed="19.444" />
+   <edge id="0102" from="d3" to="h1" priority="46" numLanes="3" speed="11.111" />
+
+   <edge id="01-11" from="d4" to="f2" priority="78" numLanes="3" speed="19.444" />
+   <edge id="-1101" from="f2" to="d4" priority="46" numLanes="3" speed="11.111" /> 
+</edges>

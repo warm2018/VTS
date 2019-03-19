@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/19/19 13:34:27 by Eclipse SUMO netconvert Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="intersection.nod.xml"/>
+        <edge-files value="intersection.edg.xml"/>
+        <connection-files value="intersection.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="intersection.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.0" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="150.00,150.00" convBoundary="0.00,0.00,300.00,300.00" origBoundary="-150.00,-150.00,150.00,150.00" projParameter="!"/>
+
+    <edge id=":a_0" function="internal">
+        <lane id=":a_0_0" index="0" speed="6.51" length="9.03" shape="142.00,163.60 141.65,161.15 140.60,159.40 138.85,158.35 136.40,158.00"/>
+    </edge>
+    <edge id=":a_1" function="internal">
+        <lane id=":a_1_0" index="0" speed="17.22" length="27.20" shape="145.20,163.60 145.20,136.40"/>
+    </edge>
+    <edge id=":a_2" function="internal">
+        <lane id=":a_2_0" index="0" speed="10.36" length="13.42" shape="148.40,163.60 149.35,156.95 152.20,152.20 153.20,151.60"/>
+    </edge>
+    <edge id=":a_12" function="internal">
+        <lane id=":a_12_0" index="0" speed="10.36" length="11.09" shape="153.20,151.60 156.95,149.35 163.60,148.40"/>
+    </edge>
+    <edge id=":a_3" function="internal">
+        <lane id=":a_3_0" index="0" speed="6.51" length="9.03" shape="163.60,158.00 161.15,158.35 159.40,159.40 158.35,161.15 158.00,163.60"/>
+    </edge>
+    <edge id=":a_4" function="internal">
+        <lane id=":a_4_0" index="0" speed="17.22" length="27.20" shape="163.60,154.80 136.40,154.80"/>
+    </edge>
+    <edge id=":a_5" function="internal">
+        <lane id=":a_5_0" index="0" speed="10.36" length="13.42" shape="163.60,151.60 156.95,150.65 152.20,147.80 151.60,146.80"/>
+    </edge>
+    <edge id=":a_13" function="internal">
+        <lane id=":a_13_0" index="0" speed="10.36" length="11.09" shape="151.60,146.80 149.35,143.05 148.40,136.40"/>
+    </edge>
+    <edge id=":a_6" function="internal">
+        <lane id=":a_6_0" index="0" speed="6.51" length="9.03" shape="158.00,136.40 158.35,138.85 159.40,140.60 161.15,141.65 163.60,142.00"/>
+    </edge>
+    <edge id=":a_7" function="internal">
+        <lane id=":a_7_0" index="0" speed="17.22" length="27.20" shape="154.80,136.40 154.80,163.60"/>
+    </edge>
+    <edge id=":a_8" function="internal">
+        <lane id=":a_8_0" index="0" speed="10.36" length="13.42" shape="151.60,136.40 150.65,143.05 147.80,147.80 146.80,148.40"/>
+    </edge>
+    <edge id=":a_14" function="internal">
+        <lane id=":a_14_0" index="0" speed="10.36" length="11.09" shape="146.80,148.40 143.05,150.65 136.40,151.60"/>
+    </edge>
+    <edge id=":a_9" function="internal">
+        <lane id=":a_9_0" index="0" speed="6.51" length="9.03" shape="136.40,142.00 138.85,141.65 140.60,140.60 141.65,138.85 142.00,136.40"/>
+    </edge>
+    <edge id=":a_10" function="internal">
+        <lane id=":a_10_0" index="0" speed="17.22" length="27.20" shape="136.40,145.20 163.60,145.20"/>
+    </edge>
+    <edge id=":a_11" function="internal">
+        <lane id=":a_11_0" index="0" speed="10.36" length="13.42" shape="136.40,148.40 143.05,149.35 147.80,152.20 148.40,153.20"/>
+    </edge>
+    <edge id=":a_15" function="internal">
+        <lane id=":a_15_0" index="0" speed="10.36" length="11.09" shape="148.40,153.20 150.65,156.95 151.60,163.60"/>
+    </edge>
+
+    <edge id="a1i" from="a1" to="a" priority="78">
+        <lane id="a1i_0" index="0" speed="19.44" length="136.40" shape="158.00,0.00 158.00,136.40"/>
+        <lane id="a1i_1" index="1" speed="19.44" length="136.40" shape="154.80,0.00 154.80,136.40"/>
+        <lane id="a1i_2" index="2" speed="19.44" length="136.40" shape="151.60,0.00 151.60,136.40"/>
+    </edge>
+    <edge id="a1o" from="a" to="a1" priority="46">
+        <lane id="a1o_0" index="0" speed="15.00" length="136.40" shape="142.00,136.40 142.00,0.00"/>
+        <lane id="a1o_1" index="1" speed="15.00" length="136.40" shape="145.20,136.40 145.20,0.00"/>
+        <lane id="a1o_2" index="2" speed="15.00" length="136.40" shape="148.40,136.40 148.40,0.00"/>
+    </edge>
+    <edge id="a2i" from="a2" to="a" priority="78">
+        <lane id="a2i_0" index="0" speed="19.44" length="136.40" shape="300.00,158.00 163.60,158.00"/>
+        <lane id="a2i_1" index="1" speed="19.44" length="136.40" shape="300.00,154.80 163.60,154.80"/>
+        <lane id="a2i_2" index="2" speed="19.44" length="136.40" shape="300.00,151.60 163.60,151.60"/>
+    </edge>
+    <edge id="a2o" from="a" to="a2" priority="46">
+        <lane id="a2o_0" index="0" speed="15.00" length="136.40" shape="163.60,142.00 300.00,142.00"/>
+        <lane id="a2o_1" index="1" speed="15.00" length="136.40" shape="163.60,145.20 300.00,145.20"/>
+        <lane id="a2o_2" index="2" speed="15.00" length="136.40" shape="163.60,148.40 300.00,148.40"/>
+    </edge>
+    <edge id="a3i" from="a3" to="a" priority="78">
+        <lane id="a3i_0" index="0" speed="19.44" length="136.40" shape="142.00,300.00 142.00,163.60"/>
+        <lane id="a3i_1" index="1" speed="19.44" length="136.40" shape="145.20,300.00 145.20,163.60"/>
+        <lane id="a3i_2" index="2" speed="19.44" length="136.40" shape="148.40,300.00 148.40,163.60"/>
+    </edge>
+    <edge id="a3o" from="a" to="a3" priority="46">
+        <lane id="a3o_0" index="0" speed="15.00" length="136.40" shape="158.00,163.60 158.00,300.00"/>
+        <lane id="a3o_1" index="1" speed="15.00" length="136.40" shape="154.80,163.60 154.80,300.00"/>
+        <lane id="a3o_2" index="2" speed="15.00" length="136.40" shape="151.60,163.60 151.60,300.00"/>
+    </edge>
+    <edge id="a4i" from="a4" to="a" priority="78">
+        <lane id="a4i_0" index="0" speed="19.44" length="136.40" shape="0.00,142.00 136.40,142.00"/>
+        <lane id="a4i_1" index="1" speed="19.44" length="136.40" shape="0.00,145.20 136.40,145.20"/>
+        <lane id="a4i_2" index="2" speed="19.44" length="136.40" shape="0.00,148.40 136.40,148.40"/>
+    </edge>
+    <edge id="a4o" from="a" to="a4" priority="46">
+        <lane id="a4o_0" index="0" speed="15.00" length="136.40" shape="136.40,158.00 0.00,158.00"/>
+        <lane id="a4o_1" index="1" speed="15.00" length="136.40" shape="136.40,154.80 0.00,154.80"/>
+        <lane id="a4o_2" index="2" speed="15.00" length="136.40" shape="136.40,151.60 0.00,151.60"/>
+    </edge>
+
+    <tlLogic id="a" type="static" programID="0" offset="0">
+        <phase duration="5" state="OrrOrrOrrOrr"/>
+        <phase duration="5" state="OrrOrrOrrOrG"/>
+        <phase duration="5" state="OrrOrrOrrOGr"/>
+        <phase duration="5" state="OrrOrrOrrOGG"/>
+        <phase duration="5" state="OrrOrrOrGOrr"/>
+        <phase duration="5" state="OrrOrrOrGOrG"/>
+        <phase duration="5" state="OrrOrrOrGOGr"/>
+        <phase duration="5" state="OrrOrrOrGOGG"/>
+        <phase duration="5" state="OrrOrrOGrOrr"/>
+        <phase duration="5" state="OrrOrrOGrOrG"/>
+        <phase duration="5" state="OrrOrrOGrOGr"/>
+        <phase duration="5" state="OrrOrrOGrOGG"/>
+        <phase duration="5" state="OrrOrrOGGOrr"/>
+        <phase duration="5" state="OrrOrrOGGOrG"/>
+        <phase duration="5" state="OrrOrrOGGOGr"/>
+        <phase duration="5" state="OrrOrrOGGOGG"/>
+        <phase duration="5" state="OrrOrGOrrOrr"/>
+        <phase duration="5" state="OrrOrGOrrOrG"/>
+        <phase duration="5" state="OrrOrGOrrOGr"/>
+        <phase duration="5" state="OrrOrGOrrOGG"/>
+        <phase duration="5" state="OrrOrGOrGOrr"/>
+        <phase duration="5" state="OrrOrGOrGOrG"/>
+        <phase duration="5" state="OrrOrGOrGOGr"/>
+        <phase duration="5" state="OrrOrGOrGOGG"/>
+        <phase duration="5" state="OrrOrGOGrOrr"/>
+        <phase duration="5" state="OrrOrGOGrOrG"/>
+        <phase duration="5" state="OrrOrGOGrOGr"/>
+        <phase duration="5" state="OrrOrGOGrOGG"/>
+        <phase duration="5" state="OrrOrGOGGOrr"/>
+        <phase duration="5" state="OrrOrGOGGOrG"/>
+        <phase duration="5" state="OrrOrGOGGOGr"/>
+        <phase duration="5" state="OrrOrGOGGOGG"/>
+        <phase duration="5" state="OrrOGrOrrOrr"/>
+        <phase duration="5" state="OrrOGrOrrOrG"/>
+        <phase duration="5" state="OrrOGrOrrOGr"/>
+        <phase duration="5" state="OrrOGrOrrOGG"/>
+        <phase duration="5" state="OrrOGrOrGOrr"/>
+        <phase duration="5" state="OrrOGrOrGOrG"/>
+        <phase duration="5" state="OrrOGrOrGOGr"/>
+        <phase duration="5" state="OrrOGrOrGOGG"/>
+        <phase duration="5" state="OrrOGrOGrOrr"/>
+        <phase duration="5" state="OrrOGrOGrOrG"/>
+        <phase duration="5" state="OrrOGrOGrOGr"/>
+        <phase duration="5" state="OrrOGrOGrOGG"/>
+        <phase duration="5" state="OrrOGrOGGOrr"/>
+        <phase duration="5" state="OrrOGrOGGOrG"/>
+        <phase duration="5" state="OrrOGrOGGOGr"/>
+        <phase duration="5" state="OrrOGrOGGOGG"/>
+        <phase duration="5" state="OrrOGGOrrOrr"/>
+        <phase duration="5" state="OrrOGGOrrOrG"/>
+        <phase duration="5" state="OrrOGGOrrOGr"/>
+        <phase duration="5" state="OrrOGGOrrOGG"/>
+        <phase duration="5" state="OrrOGGOrGOrr"/>
+        <phase duration="5" state="OrrOGGOrGOrG"/>
+        <phase duration="5" state="OrrOGGOrGOGr"/>
+        <phase duration="5" state="OrrOGGOrGOGG"/>
+        <phase duration="5" state="OrrOGGOGrOrr"/>
+        <phase duration="5" state="OrrOGGOGrOrG"/>
+        <phase duration="5" state="OrrOGGOGrOGr"/>
+        <phase duration="5" state="OrrOGGOGrOGG"/>
+        <phase duration="5" state="OrrOGGOGGOrr"/>
+        <phase duration="5" state="OrrOGGOGGOrG"/>
+        <phase duration="5" state="OrrOGGOGGOGr"/>
+        <phase duration="5" state="OrrOGGOGGOGG"/>
+        <phase duration="5" state="OrGOrrOrrOrr"/>
+        <phase duration="5" state="OrGOrrOrrOrG"/>
+        <phase duration="5" state="OrGOrrOrrOGr"/>
+        <phase duration="5" state="OrGOrrOrrOGG"/>
+        <phase duration="5" state="OrGOrrOrGOrr"/>
+        <phase duration="5" state="OrGOrrOrGOrG"/>
+        <phase duration="5" state="OrGOrrOrGOGr"/>
+        <phase duration="5" state="OrGOrrOrGOGG"/>
+        <phase duration="5" state="OrGOrrOGrOrr"/>
+        <phase duration="5" state="OrGOrrOGrOrG"/>
+        <phase duration="5" state="OrGOrrOGrOGr"/>
+        <phase duration="5" state="OrGOrrOGrOGG"/>
+        <phase duration="5" state="OrGOrrOGGOrr"/>
+        <phase duration="5" state="OrGOrrOGGOrG"/>
+        <phase duration="5" state="OrGOrrOGGOGr"/>
+        <phase duration="5" state="OrGOrrOGGOGG"/>
+        <phase duration="5" state="OrGOrGOrrOrr"/>
+        <phase duration="5" state="OrGOrGOrrOrG"/>
+        <phase duration="5" state="OrGOrGOrrOGr"/>
+        <phase duration="5" state="OrGOrGOrrOGG"/>
+        <phase duration="5" state="OrGOrGOrGOrr"/>
+        <phase duration="5" state="OrGOrGOrGOrG"/>
+        <phase duration="5" state="OrGOrGOrGOGr"/>
+        <phase duration="5" state="OrGOrGOrGOGG"/>
+        <phase duration="5" state="OrGOrGOGrOrr"/>
+        <phase duration="5" state="OrGOrGOGrOrG"/>
+        <phase duration="5" state="OrGOrGOGrOGr"/>
+        <phase duration="5" state="OrGOrGOGrOGG"/>
+        <phase duration="5" state="OrGOrGOGGOrr"/>
+        <phase duration="5" state="OrGOrGOGGOrG"/>
+        <phase duration="5" state="OrGOrGOGGOGr"/>
+        <phase duration="5" state="OrGOrGOGGOGG"/>
+        <phase duration="5" state="OrGOGrOrrOrr"/>
+        <phase duration="5" state="OrGOGrOrrOrG"/>
+        <phase duration="5" state="OrGOGrOrrOGr"/>
+        <phase duration="5" state="OrGOGrOrrOGG"/>
+        <phase duration="5" state="OrGOGrOrGOrr"/>
+        <phase duration="5" state="OrGOGrOrGOrG"/>
+        <phase duration="5" state="OrGOGrOrGOGr"/>
+        <phase duration="5" state="OrGOGrOrGOGG"/>
+        <phase duration="5" state="OrGOGrOGrOrr"/>
+        <phase duration="5" state="OrGOGrOGrOrG"/>
+        <phase duration="5" state="OrGOGrOGrOGr"/>
+        <phase duration="5" state="OrGOGrOGrOGG"/>
+        <phase duration="5" state="OrGOGrOGGOrr"/>
+        <phase duration="5" state="OrGOGrOGGOrG"/>
+        <phase duration="5" state="OrGOGrOGGOGr"/>
+        <phase duration="5" state="OrGOGrOGGOGG"/>
+        <phase duration="5" state="OrGOGGOrrOrr"/>
+        <phase duration="5" state="OrGOGGOrrOrG"/>
+        <phase duration="5" state="OrGOGGOrrOGr"/>
+        <phase duration="5" state="OrGOGGOrrOGG"/>
+        <phase duration="5" state="OrGOGGOrGOrr"/>
+        <phase duration="5" state="OrGOGGOrGOrG"/>
+        <phase duration="5" state="OrGOGGOrGOGr"/>
+        <phase duration="5" state="OrGOGGOrGOGG"/>
+        <phase duration="5" state="OrGOGGOGrOrr"/>
+        <phase duration="5" state="OrGOGGOGrOrG"/>
+        <phase duration="5" state="OrGOGGOGrOGr"/>
+        <phase duration="5" state="OrGOGGOGrOGG"/>
+        <phase duration="5" state="OrGOGGOGGOrr"/>
+        <phase duration="5" state="OrGOGGOGGOrG"/>
+        <phase duration="5" state="OrGOGGOGGOGr"/>
+        <phase duration="5" state="OrGOGGOGGOGG"/>
+        <phase duration="5" state="OGrOrrOrrOrr"/>
+        <phase duration="5" state="OGrOrrOrrOrG"/>
+        <phase duration="5" state="OGrOrrOrrOGr"/>
+        <phase duration="5" state="OGrOrrOrrOGG"/>
+        <phase duration="5" state="OGrOrrOrGOrr"/>
+        <phase duration="5" state="OGrOrrOrGOrG"/>
+        <phase duration="5" state="OGrOrrOrGOGr"/>
+        <phase duration="5" state="OGrOrrOrGOGG"/>
+        <phase duration="5" state="OGrOrrOGrOrr"/>
+        <phase duration="5" state="OGrOrrOGrOrG"/>
+        <phase duration="5" state="OGrOrrOGrOGr"/>
+        <phase duration="5" state="OGrOrrOGrOGG"/>
+        <phase duration="5" state="OGrOrrOGGOrr"/>
+        <phase duration="5" state="OGrOrrOGGOrG"/>
+        <phase duration="5" state="OGrOrrOGGOGr"/>
+        <phase duration="5" state="OGrOrrOGGOGG"/>
+        <phase duration="5" state="OGrOrGOrrOrr"/>
+        <phase duration="5" state="OGrOrGOrrOrG"/>
+        <phase duration="5" state="OGrOrGOrrOGr"/>
+        <phase duration="5" state="OGrOrGOrrOGG"/>
+        <phase duration="5" state="OGrOrGOrGOrr"/>
+        <phase duration="5" state="OGrOrGOrGOrG"/>
+        <phase duration="5" state="OGrOrGOrGOGr"/>
+        <phase duration="5" state="OGrOrGOrGOGG"/>
+        <phase duration="5" state="OGrOrGOGrOrr"/>
+        <phase duration="5" state="OGrOrGOGrOrG"/>
+        <phase duration="5" state="OGrOrGOGrOGr"/>
+        <phase duration="5" state="OGrOrGOGrOGG"/>
+        <phase duration="5" state="OGrOrGOGGOrr"/>
+        <phase duration="5" state="OGrOrGOGGOrG"/>
+        <phase duration="5" state="OGrOrGOGGOGr"/>
+        <phase duration="5" state="OGrOrGOGGOGG"/>
+        <phase duration="5" state="OGrOGrOrrOrr"/>
+        <phase duration="5" state="OGrOGrOrrOrG"/>
+        <phase duration="5" state="OGrOGrOrrOGr"/>
+        <phase duration="5" state="OGrOGrOrrOGG"/>
+        <phase duration="5" state="OGrOGrOrGOrr"/>
+        <phase duration="5" state="OGrOGrOrGOrG"/>
+        <phase duration="5" state="OGrOGrOrGOGr"/>
+        <phase duration="5" state="OGrOGrOrGOGG"/>
+        <phase duration="5" state="OGrOGrOGrOrr"/>
+        <phase duration="5" state="OGrOGrOGrOrG"/>
+        <phase duration="5" state="OGrOGrOGrOGr"/>
+        <phase duration="5" state="OGrOGrOGrOGG"/>
+        <phase duration="5" state="OGrOGrOGGOrr"/>
+        <phase duration="5" state="OGrOGrOGGOrG"/>
+        <phase duration="5" state="OGrOGrOGGOGr"/>
+        <phase duration="5" state="OGrOGrOGGOGG"/>
+        <phase duration="5" state="OGrOGGOrrOrr"/>
+        <phase duration="5" state="OGrOGGOrrOrG"/>
+        <phase duration="5" state="OGrOGGOrrOGr"/>
+        <phase duration="5" state="OGrOGGOrrOGG"/>
+        <phase duration="5" state="OGrOGGOrGOrr"/>
+        <phase duration="5" state="OGrOGGOrGOrG"/>
+        <phase duration="5" state="OGrOGGOrGOGr"/>
+        <phase duration="5" state="OGrOGGOrGOGG"/>
+        <phase duration="5" state="OGrOGGOGrOrr"/>
+        <phase duration="5" state="OGrOGGOGrOrG"/>
+        <phase duration="5" state="OGrOGGOGrOGr"/>
+        <phase duration="5" state="OGrOGGOGrOGG"/>
+        <phase duration="5" state="OGrOGGOGGOrr"/>
+        <phase duration="5" state="OGrOGGOGGOrG"/>
+        <phase duration="5" state="OGrOGGOGGOGr"/>
+        <phase duration="5" state="OGrOGGOGGOGG"/>
+        <phase duration="5" state="OGGOrrOrrOrr"/>
+        <phase duration="5" state="OGGOrrOrrOrG"/>
+        <phase duration="5" state="OGGOrrOrrOGr"/>
+        <phase duration="5" state="OGGOrrOrrOGG"/>
+        <phase duration="5" state="OGGOrrOrGOrr"/>
+        <phase duration="5" state="OGGOrrOrGOrG"/>
+        <phase duration="5" state="OGGOrrOrGOGr"/>
+        <phase duration="5" state="OGGOrrOrGOGG"/>
+        <phase duration="5" state="OGGOrrOGrOrr"/>
+        <phase duration="5" state="OGGOrrOGrOrG"/>
+        <phase duration="5" state="OGGOrrOGrOGr"/>
+        <phase duration="5" state="OGGOrrOGrOGG"/>
+        <phase duration="5" state="OGGOrrOGGOrr"/>
+        <phase duration="5" state="OGGOrrOGGOrG"/>
+        <phase duration="5" state="OGGOrrOGGOGr"/>
+        <phase duration="5" state="OGGOrrOGGOGG"/>
+        <phase duration="5" state="OGGOrGOrrOrr"/>
+        <phase duration="5" state="OGGOrGOrrOrG"/>
+        <phase duration="5" state="OGGOrGOrrOGr"/>
+        <phase duration="5" state="OGGOrGOrrOGG"/>
+        <phase duration="5" state="OGGOrGOrGOrr"/>
+        <phase duration="5" state="OGGOrGOrGOrG"/>
+        <phase duration="5" state="OGGOrGOrGOGr"/>
+        <phase duration="5" state="OGGOrGOrGOGG"/>
+        <phase duration="5" state="OGGOrGOGrOrr"/>
+        <phase duration="5" state="OGGOrGOGrOrG"/>
+        <phase duration="5" state="OGGOrGOGrOGr"/>
+        <phase duration="5" state="OGGOrGOGrOGG"/>
+        <phase duration="5" state="OGGOrGOGGOrr"/>
+        <phase duration="5" state="OGGOrGOGGOrG"/>
+        <phase duration="5" state="OGGOrGOGGOGr"/>
+        <phase duration="5" state="OGGOrGOGGOGG"/>
+        <phase duration="5" state="OGGOGrOrrOrr"/>
+        <phase duration="5" state="OGGOGrOrrOrG"/>
+        <phase duration="5" state="OGGOGrOrrOGr"/>
+        <phase duration="5" state="OGGOGrOrrOGG"/>
+        <phase duration="5" state="OGGOGrOrGOrr"/>
+        <phase duration="5" state="OGGOGrOrGOrG"/>
+        <phase duration="5" state="OGGOGrOrGOGr"/>
+        <phase duration="5" state="OGGOGrOrGOGG"/>
+        <phase duration="5" state="OGGOGrOGrOrr"/>
+        <phase duration="5" state="OGGOGrOGrOrG"/>
+        <phase duration="5" state="OGGOGrOGrOGr"/>
+        <phase duration="5" state="OGGOGrOGrOGG"/>
+        <phase duration="5" state="OGGOGrOGGOrr"/>
+        <phase duration="5" state="OGGOGrOGGOrG"/>
+        <phase duration="5" state="OGGOGrOGGOGr"/>
+        <phase duration="5" state="OGGOGrOGGOGG"/>
+        <phase duration="5" state="OGGOGGOrrOrr"/>
+        <phase duration="5" state="OGGOGGOrrOrG"/>
+        <phase duration="5" state="OGGOGGOrrOGr"/>
+        <phase duration="5" state="OGGOGGOrrOGG"/>
+        <phase duration="5" state="OGGOGGOrGOrr"/>
+        <phase duration="5" state="OGGOGGOrGOrG"/>
+        <phase duration="5" state="OGGOGGOrGOGr"/>
+        <phase duration="5" state="OGGOGGOrGOGG"/>
+        <phase duration="5" state="OGGOGGOGrOrr"/>
+        <phase duration="5" state="OGGOGGOGrOrG"/>
+        <phase duration="5" state="OGGOGGOGrOGr"/>
+        <phase duration="5" state="OGGOGGOGrOGG"/>
+        <phase duration="5" state="OGGOGGOGGOrr"/>
+        <phase duration="5" state="OGGOGGOGGOrG"/>
+        <phase duration="5" state="OGGOGGOGGOGr"/>
+    </tlLogic>
+
+    <junction id="a" type="traffic_light" x="150.00" y="150.00" incLanes="a3i_0 a3i_1 a3i_2 a2i_0 a2i_1 a2i_2 a1i_0 a1i_1 a1i_2 a4i_0 a4i_1 a4i_2" intLanes=":a_0_0 :a_1_0 :a_12_0 :a_3_0 :a_4_0 :a_13_0 :a_6_0 :a_7_0 :a_14_0 :a_9_0 :a_10_0 :a_15_0" shape="140.40,163.60 159.60,163.60 160.04,161.38 160.60,160.60 161.38,160.04 162.38,159.71 163.60,159.60 163.60,140.40 161.38,139.96 160.60,139.40 160.04,138.62 159.71,137.62 159.60,136.40 140.40,136.40 139.96,138.62 139.40,139.40 138.62,139.96 137.62,140.29 136.40,140.40 136.40,159.60 138.62,160.04 139.40,160.60 139.96,161.38 140.29,162.38">
+        <request index="0"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="1"  response="100000000000" foes="110100010000" cont="0"/>
+        <request index="2"  response="100010100000" foes="100010110000" cont="1"/>
+        <request index="3"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="4"  response="000010000110" foes="100010000110" cont="0"/>
+        <request index="5"  response="010110000100" foes="010110000100" cont="1"/>
+        <request index="6"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="7"  response="000000100000" foes="010000110100" cont="0"/>
+        <request index="8"  response="100000100010" foes="110000100010" cont="1"/>
+        <request index="9"  response="000000000000" foes="000000000000" cont="0"/>
+        <request index="10" response="000110000010" foes="000110100010" cont="0"/>
+        <request index="11" response="000100010110" foes="000100010110" cont="1"/>
+    </junction>
+    <junction id="a1" type="dead_end" x="150.00" y="0.00" incLanes="a1o_0 a1o_1 a1o_2" intLanes="" shape="150.00,0.00 140.40,0.00 150.00,0.00"/>
+    <junction id="a2" type="dead_end" x="300.00" y="150.00" incLanes="a2o_0 a2o_1 a2o_2" intLanes="" shape="300.00,150.00 300.00,140.40 300.00,150.00"/>
+    <junction id="a3" type="dead_end" x="150.00" y="300.00" incLanes="a3o_0 a3o_1 a3o_2" intLanes="" shape="150.00,300.00 159.60,300.00 150.00,300.00"/>
+    <junction id="a4" type="dead_end" x="0.00" y="150.00" incLanes="a4o_0 a4o_1 a4o_2" intLanes="" shape="0.00,150.00 0.00,159.60 0.00,150.00"/>
+
+    <junction id=":a_12_0" type="internal" x="153.20" y="151.60" incLanes=":a_2_0 a1i_1" intLanes=":a_4_0 :a_5_0 :a_7_0 :a_11_0"/>
+    <junction id=":a_13_0" type="internal" x="151.60" y="146.80" incLanes=":a_5_0 a4i_1" intLanes=":a_2_0 :a_7_0 :a_8_0 :a_10_0"/>
+    <junction id=":a_14_0" type="internal" x="146.80" y="148.40" incLanes=":a_8_0 a3i_1" intLanes=":a_1_0 :a_5_0 :a_10_0 :a_11_0"/>
+    <junction id=":a_15_0" type="internal" x="148.40" y="153.20" incLanes=":a_11_0 a2i_1" intLanes=":a_1_0 :a_2_0 :a_4_0 :a_8_0"/>
+
+    <connection from="a1i" to="a2o" fromLane="0" toLane="0" via=":a_6_0" tl="a" linkIndex="6" dir="r" state="O"/>
+    <connection from="a1i" to="a3o" fromLane="1" toLane="1" via=":a_7_0" tl="a" linkIndex="7" dir="s" state="O"/>
+    <connection from="a1i" to="a4o" fromLane="2" toLane="2" via=":a_8_0" tl="a" linkIndex="8" dir="l" state="o"/>
+    <connection from="a2i" to="a3o" fromLane="0" toLane="0" via=":a_3_0" tl="a" linkIndex="3" dir="r" state="O"/>
+    <connection from="a2i" to="a4o" fromLane="1" toLane="1" via=":a_4_0" tl="a" linkIndex="4" dir="s" state="o"/>
+    <connection from="a2i" to="a1o" fromLane="2" toLane="2" via=":a_5_0" tl="a" linkIndex="5" dir="l" state="o"/>
+    <connection from="a3i" to="a4o" fromLane="0" toLane="0" via=":a_0_0" tl="a" linkIndex="0" dir="r" state="O"/>
+    <connection from="a3i" to="a1o" fromLane="1" toLane="1" via=":a_1_0" tl="a" linkIndex="1" dir="s" state="O"/>
+    <connection from="a3i" to="a2o" fromLane="2" toLane="2" via=":a_2_0" tl="a" linkIndex="2" dir="l" state="o"/>
+    <connection from="a4i" to="a1o" fromLane="0" toLane="0" via=":a_9_0" tl="a" linkIndex="9" dir="r" state="O"/>
+    <connection from="a4i" to="a2o" fromLane="1" toLane="1" via=":a_10_0" tl="a" linkIndex="10" dir="s" state="o"/>
+    <connection from="a4i" to="a3o" fromLane="2" toLane="2" via=":a_11_0" tl="a" linkIndex="11" dir="l" state="o"/>
+
+    <connection from=":a_0" to="a4o" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":a_1" to="a1o" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":a_2" to="a2o" fromLane="0" toLane="2" via=":a_12_0" dir="l" state="m"/>
+    <connection from=":a_12" to="a2o" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":a_3" to="a3o" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":a_4" to="a4o" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":a_5" to="a1o" fromLane="0" toLane="2" via=":a_13_0" dir="l" state="m"/>
+    <connection from=":a_13" to="a1o" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":a_6" to="a2o" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":a_7" to="a3o" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":a_8" to="a4o" fromLane="0" toLane="2" via=":a_14_0" dir="l" state="m"/>
+    <connection from=":a_14" to="a4o" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":a_9" to="a1o" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":a_10" to="a2o" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":a_11" to="a3o" fromLane="0" toLane="2" via=":a_15_0" dir="l" state="m"/>
+    <connection from=":a_15" to="a3o" fromLane="0" toLane="2" dir="l" state="M"/>
+
+</net>

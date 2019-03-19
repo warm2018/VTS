@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+ 
+    <connection from="a1i" to="a2o" fromLane="0" toLane="0" />
+    <connection from="a2i" to="a3o" fromLane="0" toLane="0" />
+    <connection from="a3i" to="a4o" fromLane="0" toLane="0" />
+    <connection from="a4i" to="a1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+	<connection from="a1i" to="a3o" fromLane="1" toLane="1" />
+	<connection from="a2i" to="a4o" fromLane="1" toLane="1" />
+	<connection from="a3i" to="a1o" fromLane="1" toLane="1" />
+	<connection from="a4i" to="a2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="a1i" to="a4o" fromLane="2" toLane="2" />
+    <connection from="a2i" to="a1o" fromLane="2" toLane="2" />
+    <connection from="a3i" to="a2o" fromLane="2" toLane="2" />
+    <connection from="a4i" to="a3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+   
+    <connection from="b1i" to="b2o" fromLane="0" toLane="0" />
+    <connection from="b2i" to="b3o" fromLane="0" toLane="0" />
+    <connection from="b3i" to="b4o" fromLane="0" toLane="0" />
+    <connection from="b4i" to="b1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="b1i" to="b3o" fromLane="1" toLane="1" />
+    <connection from="b2i" to="b4o" fromLane="1" toLane="1" />
+    <connection from="b3i" to="b1o" fromLane="1" toLane="1" />
+    <connection from="b4i" to="b2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="b1i" to="b4o" fromLane="2" toLane="2" />
+    <connection from="b2i" to="b1o" fromLane="2" toLane="2" />
+    <connection from="b3i" to="b2o" fromLane="2" toLane="2" />
+    <connection from="b4i" to="b3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+
+    <connection from="c1i" to="c2o" fromLane="0" toLane="0" />
+    <connection from="c2i" to="c3o" fromLane="0" toLane="0" />
+    <connection from="c3i" to="c4o" fromLane="0" toLane="0" />
+    <connection from="c4i" to="c1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="c1i" to="c3o" fromLane="1" toLane="1" />
+    <connection from="c2i" to="c4o" fromLane="1" toLane="1" />
+    <connection from="c3i" to="c1o" fromLane="1" toLane="1" />
+    <connection from="c4i" to="c2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="c1i" to="c4o" fromLane="2" toLane="2" />
+    <connection from="c2i" to="c1o" fromLane="2" toLane="2" />
+    <connection from="c3i" to="c2o" fromLane="2" toLane="2" />
+    <connection from="c4i" to="c3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE cINTERSECTION**************************   -->
+
+    <connection from="d1i" to="d2o" fromLane="0" toLane="0" />
+    <connection from="d2i" to="d3o" fromLane="0" toLane="0" />
+    <connection from="d3i" to="d4o" fromLane="0" toLane="0" />
+    <connection from="d4i" to="d1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="d1i" to="d3o" fromLane="1" toLane="1" />
+    <connection from="d2i" to="d4o" fromLane="1" toLane="1" />
+    <connection from="d3i" to="d1o" fromLane="1" toLane="1" />
+    <connection from="d4i" to="d2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="d1i" to="d4o" fromLane="2" toLane="2" />
+    <connection from="d2i" to="d1o" fromLane="2" toLane="2" />
+    <connection from="d3i" to="d2o" fromLane="2" toLane="2" />
+    <connection from="d4i" to="d3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+
+    <connection from="e1i" to="e2o" fromLane="0" toLane="0" />
+    <connection from="e2i" to="e3o" fromLane="0" toLane="0" />
+    <connection from="e3i" to="e4o" fromLane="0" toLane="0" />
+    <connection from="e4i" to="e1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="e1i" to="e3o" fromLane="1" toLane="1" />
+    <connection from="e2i" to="e4o" fromLane="1" toLane="1" />
+    <connection from="e3i" to="e1o" fromLane="1" toLane="1" />
+    <connection from="e4i" to="e2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="e1i" to="e4o" fromLane="2" toLane="2" />
+    <connection from="e2i" to="e1o" fromLane="2" toLane="2" />
+    <connection from="e3i" to="e2o" fromLane="2" toLane="2" />
+    <connection from="e4i" to="e3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+
+    <connection from="f1i" to="f2o" fromLane="0" toLane="0" />
+    <connection from="f2i" to="f3o" fromLane="0" toLane="0" />
+    <connection from="f3i" to="f4o" fromLane="0" toLane="0" />
+    <connection from="f4i" to="f1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="f1i" to="f3o" fromLane="1" toLane="1" />
+    <connection from="f2i" to="f4o" fromLane="1" toLane="1" />
+    <connection from="f3i" to="f1o" fromLane="1" toLane="1" />
+    <connection from="f4i" to="f2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="f1i" to="f4o" fromLane="2" toLane="2" />
+    <connection from="f2i" to="f1o" fromLane="2" toLane="2" />
+    <connection from="f3i" to="f2o" fromLane="2" toLane="2" />
+    <connection from="f4i" to="f3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->  
+
+    <connection from="g1i" to="g2o" fromLane="0" toLane="0" />
+    <connection from="g2i" to="g3o" fromLane="0" toLane="0" />
+    <connection from="g3i" to="g4o" fromLane="0" toLane="0" />
+    <connection from="g4i" to="g1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="g1i" to="g3o" fromLane="1" toLane="1" />
+    <connection from="g2i" to="g4o" fromLane="1" toLane="1" />
+    <connection from="g3i" to="g1o" fromLane="1" toLane="1" />
+    <connection from="g4i" to="g2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="g1i" to="g4o" fromLane="2" toLane="2" />
+    <connection from="g2i" to="g1o" fromLane="2" toLane="2" />
+    <connection from="g3i" to="g2o" fromLane="2" toLane="2" />
+    <connection from="g4i" to="g3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+
+    <connection from="h1i" to="h2o" fromLane="0" toLane="0" />
+    <connection from="h2i" to="h3o" fromLane="0" toLane="0" />
+    <connection from="h3i" to="h4o" fromLane="0" toLane="0" />
+    <connection from="h4i" to="h1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="h1i" to="h3o" fromLane="1" toLane="1" />
+    <connection from="h2i" to="h4o" fromLane="1" toLane="1" />
+    <connection from="h3i" to="h1o" fromLane="1" toLane="1" />
+    <connection from="h4i" to="h2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="h1i" to="h4o" fromLane="2" toLane="2" />
+    <connection from="h2i" to="h1o" fromLane="2" toLane="2" />
+    <connection from="h3i" to="h2o" fromLane="2" toLane="2" />
+    <connection from="h4i" to="h3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+
+    <connection from="j1i" to="j2o" fromLane="0" toLane="0" />
+    <connection from="j2i" to="j3o" fromLane="0" toLane="0" />
+    <connection from="j3i" to="j4o" fromLane="0" toLane="0" />
+    <connection from="j4i" to="j1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+    <connection from="j1i" to="j3o" fromLane="1" toLane="1" />
+    <connection from="j2i" to="j4o" fromLane="1" toLane="1" />
+    <connection from="j3i" to="j1o" fromLane="1" toLane="1" />
+    <connection from="j4i" to="j2o" fromLane="1" toLane="1" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+    <connection from="j1i" to="j4o" fromLane="2" toLane="2" />
+    <connection from="j2i" to="j1o" fromLane="2" toLane="2" />
+    <connection from="j3i" to="j2o" fromLane="2" toLane="2" />
+    <connection from="j4i" to="j3o" fromLane="2" toLane="2" />
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************-->
+
+    <connection from="a2o" to="0010" fromLane="0" toLane ="0" />
+    <connection from="a2o" to="0010" fromLane="1" toLane ="1" />
+    <connection from="a2o" to="0010" fromLane="2" toLane ="2" />
+    <connection from="0010" to="b4i" fromLane="0" toLane ="0" />
+    <connection from="0010" to="b4i" fromLane="1" toLane ="1" />
+    <connection from="0010" to="b4i" fromLane="2" toLane ="2" />
+
+    <connection from="b4o" to="1000" fromLane="0" toLane ="0" />
+    <connection from="b4o" to="1000" fromLane="1" toLane ="1" />
+    <connection from="b4o" to="1000" fromLane="2" toLane ="2" />
+    <connection from="1000" to="a2i" fromLane="0" toLane ="0" />
+    <connection from="1000" to="a2i" fromLane="1" toLane ="1" />
+    <connection from="1000" to="a2i" fromLane="2" toLane ="2" />
+
+    <connection from="d2o" to="0111" fromLane="0" toLane ="0" />
+    <connection from="d2o" to="0111" fromLane="1" toLane ="1" />
+    <connection from="d2o" to="0111" fromLane="2" toLane ="2" />
+    <connection from="0111" to="c4i" fromLane="0" toLane ="0" />
+    <connection from="0111" to="c4i" fromLane="1" toLane ="1" />
+    <connection from="0111" to="c4i" fromLane="2" toLane ="2" />
+
+    <connection from="c4o" to="1101" fromLane="0" toLane ="0" />
+    <connection from="c4o" to="1101" fromLane="1" toLane ="1" />
+    <connection from="c4o" to="1101" fromLane="2" toLane ="2" />
+    <connection from="1101" to="d2i" fromLane="0" toLane ="0" />
+    <connection from="1101" to="d2i" fromLane="1" toLane ="1" />
+    <connection from="1101" to="d2i" fromLane="2" toLane ="2" />
+
+    <connection from="b3o" to="1011" fromLane="0" toLane ="0" />
+    <connection from="b3o" to="1011" fromLane="1" toLane ="1" />
+    <connection from="b3o" to="1011" fromLane="2" toLane ="2" />
+    <connection from="1011" to="c1i" fromLane="0" toLane ="0" />
+    <connection from="1011" to="c1i" fromLane="1" toLane ="1" />
+    <connection from="1011" to="c1i" fromLane="2" toLane ="2" />
+
+    <connection from="c1o" to="1110" fromLane="0" toLane ="0" />
+    <connection from="c1o" to="1110" fromLane="1" toLane ="1" />
+    <connection from="c1o" to="1110" fromLane="2" toLane ="2" />
+    <connection from="1110" to="b3i" fromLane="0" toLane ="0" />
+    <connection from="1110" to="b3i" fromLane="1" toLane ="1" />
+    <connection from="1110" to="b3i" fromLane="2" toLane ="2" />
+
+    <connection from="a3o" to="0001" fromLane="0" toLane ="0" />
+    <connection from="a3o" to="0001" fromLane="1" toLane ="1" />
+    <connection from="a3o" to="0001" fromLane="2" toLane ="2" />
+    <connection from="0001" to="d1i" fromLane="0" toLane ="0" />
+    <connection from="0001" to="d1i" fromLane="1" toLane ="1" />
+    <connection from="0001" to="d1i" fromLane="2" toLane ="2" />
+
+    <connection from="d1o" to="0100" fromLane="0" toLane ="0" />
+    <connection from="d1o" to="0100" fromLane="1" toLane ="1" />
+    <connection from="d1o" to="0100" fromLane="2" toLane ="2" />
+    <connection from="0100" to="a3i" fromLane="0" toLane ="0" />
+    <connection from="0100" to="a3i" fromLane="1" toLane ="1" />
+    <connection from="0100" to="a3i" fromLane="2" toLane ="2" />
+
+
+    <connection from="a4o" to="00-10" fromLane="0" toLane ="0" />
+    <connection from="a4o" to="00-10" fromLane="1" toLane ="1" />
+    <connection from="a4o" to="00-10" fromLane="2" toLane ="2" />
+    <connection from="00-10" to="e2i" fromLane="0" toLane ="0" />
+    <connection from="00-10" to="e2i" fromLane="1" toLane ="1" />
+    <connection from="00-10" to="e2i" fromLane="2" toLane ="2" />
+    <connection from="e2o" to="-1000" fromLane="0" toLane ="0" />
+    <connection from="e2o" to="-1000" fromLane="1" toLane ="1" />
+    <connection from="e2o" to="-1000" fromLane="2" toLane ="2" />
+    <connection from="-1000" to="a4i" fromLane="0" toLane ="0" />
+    <connection from="-1000" to="a4i" fromLane="1" toLane ="1" />
+    <connection from="-1000" to="a4i" fromLane="2" toLane ="2" />
+
+
+
+
+    <connection from="e3o" to="-10-11" fromLane="0" toLane ="0" />
+    <connection from="e3o" to="-10-11" fromLane="1" toLane ="1" />
+    <connection from="e3o" to="-10-11" fromLane="2" toLane ="2" />
+    <connection from="-10-11" to="f1i" fromLane="0" toLane ="0" />
+    <connection from="-10-11" to="f1i" fromLane="1" toLane ="1" />
+    <connection from="-10-11" to="f1i" fromLane="2" toLane ="2" />
+    <connection from="f1o" to="-11-10" fromLane="0" toLane ="0" />
+    <connection from="f1o" to="-11-10" fromLane="1" toLane ="1" />
+    <connection from="f1o" to="-11-10" fromLane="2" toLane ="2" />
+    <connection from="-11-10" to="e3i" fromLane="0" toLane ="0" />
+    <connection from="-11-10" to="e3i" fromLane="1" toLane ="1" />
+    <connection from="-11-10" to="e3i" fromLane="2" toLane ="2" />
+
+    <connection from="f2o" to="-1101" fromLane="0" toLane ="0" />
+    <connection from="f2o" to="-1101" fromLane="1" toLane ="1" />
+    <connection from="f2o" to="-1101" fromLane="2" toLane ="2" />
+    <connection from="-1101" to="d4i" fromLane="0" toLane ="0" />
+    <connection from="-1101" to="d4i" fromLane="1" toLane ="1" />
+    <connection from="-1101" to="d4i" fromLane="2" toLane ="2" />
+    <connection from="d4o" to="01-11" fromLane="0" toLane ="0" />
+    <connection from="d4o" to="01-11" fromLane="1" toLane ="1" />
+    <connection from="d4o" to="01-11" fromLane="2" toLane ="2" />
+    <connection from="01-11" to="f2i" fromLane="0" toLane ="0" />
+    <connection from="01-11" to="f2i" fromLane="1" toLane ="1" />
+    <connection from="01-11" to="f2i" fromLane="2" toLane ="2" />
+
+    <connection from="f3o" to="-11-12" fromLane="0" toLane ="0" />
+    <connection from="f3o" to="-11-12" fromLane="1" toLane ="1" />
+    <connection from="f3o" to="-11-12" fromLane="2" toLane ="2" />
+    <connection from="-11-12" to="g1i" fromLane="0" toLane ="0" />
+    <connection from="-11-12" to="g1i" fromLane="1" toLane ="1" />
+    <connection from="-11-12" to="g1i" fromLane="2" toLane ="2" />
+    <connection from="g1o" to="-12-11" fromLane="0" toLane ="0" />
+    <connection from="g1o" to="-12-11" fromLane="1" toLane ="1" />
+    <connection from="g1o" to="-12-11" fromLane="2" toLane ="2" />
+    <connection from="-12-11" to="f3i" fromLane="0" toLane ="0" />
+    <connection from="-12-11" to="f3i" fromLane="1" toLane ="1" />
+    <connection from="-12-11" to="f3i" fromLane="2" toLane ="2" />
+
+    <connection from="g2o" to="-1202" fromLane="0" toLane ="0" />
+    <connection from="g2o" to="-1202" fromLane="1" toLane ="1" />
+    <connection from="g2o" to="-1202" fromLane="2" toLane ="2" />
+    <connection from="-1202" to="h4i" fromLane="0" toLane ="0" />
+    <connection from="-1202" to="h4i" fromLane="1" toLane ="1" />
+    <connection from="-1202" to="h4i" fromLane="2" toLane ="2" />
+    <connection from="h4o" to="02-12" fromLane="0" toLane ="0" />
+    <connection from="h4o" to="02-12" fromLane="1" toLane ="1" />
+    <connection from="h4o" to="02-12" fromLane="2" toLane ="2" />
+    <connection from="02-12" to="g2i" fromLane="0" toLane ="0" />
+    <connection from="02-12" to="g2i" fromLane="1" toLane ="1" />
+    <connection from="02-12" to="g2i" fromLane="2" toLane ="2" />
+
+    <connection from="h2o" to="0212" fromLane="0" toLane ="0" />
+    <connection from="h2o" to="0212" fromLane="1" toLane ="1" />
+    <connection from="h2o" to="0212" fromLane="2" toLane ="2" />
+    <connection from="0212" to="j4i" fromLane="0" toLane ="0" />
+    <connection from="0212" to="j4i" fromLane="1" toLane ="1" />
+    <connection from="0212" to="j4i" fromLane="2" toLane ="2" />
+    <connection from="j4o" to="1202" fromLane="0" toLane ="0" />
+    <connection from="j4o" to="1202" fromLane="1" toLane ="1" />
+    <connection from="j4o" to="1202" fromLane="2" toLane ="2" />
+    <connection from="1202" to="h2i" fromLane="0" toLane ="0" />
+    <connection from="1202" to="h2i" fromLane="1" toLane ="1" />
+    <connection from="1202" to="h2i" fromLane="2" toLane ="2" /> 
+
+    <connection from="h1o" to="0201" fromLane="0" toLane ="0" />
+    <connection from="h1o" to="0201" fromLane="1" toLane ="1" />
+    <connection from="h1o" to="0201" fromLane="2" toLane ="2" />
+    <connection from="0201" to="d3i" fromLane="0" toLane ="0" />
+    <connection from="0201" to="d3i" fromLane="1" toLane ="1" />
+    <connection from="0201" to="d3i" fromLane="2" toLane ="2" />
+    <connection from="d3o" to="0102" fromLane="0" toLane ="0" />
+    <connection from="d3o" to="0102" fromLane="1" toLane ="1" />
+    <connection from="d3o" to="0102" fromLane="2" toLane ="2" />
+    <connection from="0102" to="h1i" fromLane="0" toLane ="0" />
+    <connection from="0102" to="h1i" fromLane="1" toLane ="1" />
+    <connection from="0102" to="h1i" fromLane="2" toLane ="2" /> 
+
+    <connection from="j1o" to="1211" fromLane="0" toLane ="0" />
+    <connection from="j1o" to="1211" fromLane="1" toLane ="1" />
+    <connection from="j1o" to="1211" fromLane="2" toLane ="2" />
+    <connection from="1211" to="c3i" fromLane="0" toLane ="0" />
+    <connection from="1211" to="c3i" fromLane="1" toLane ="1" />
+    <connection from="1211" to="c3i" fromLane="2" toLane ="2" />
+    <connection from="c3o" to="1112" fromLane="0" toLane ="0" />
+    <connection from="c3o" to="1112" fromLane="1" toLane ="1" />
+    <connection from="c3o" to="1112" fromLane="2" toLane ="2" />
+    <connection from="1112" to="j1i" fromLane="0" toLane ="0" />
+    <connection from="1112" to="j1i" fromLane="1" toLane ="1" />
+    <connection from="1112" to="j1i" fromLane="2" toLane ="2" /> 
+</connections>

@@ -1,0 +1,11 @@
+<flows>
+	<vType id="car" accel="2" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="20" guiShape="passenger" lcStrategic="1000000000" lcCooperative="1.0"  lcAssertive="100"/>
+	<flow id="a1i" type="car" from="a1i" begin="0" end="3600" probability="0.250"/>
+	<flow id="a2i" type="car" from="a2i" begin="0" end="3600" probability="0.250"/>
+    <flow id="a3i" type="car" from="a3i" begin="0" end="3600" probability="0.250"/>
+    <flow id="a4i" type="car" from="a4i" begin="0" end="3600" probability="0.250"/>
+    <!--*************100: 0.083****150: 0.125 ****200:0.167****250:0.208*************   -->
+    <!--*************300: 0.250****350: 0.292 ****400:0.333****450:0.375*************   -->
+    <!--*************500: 0.083****350: 0.292 ****400:0.333****450:0.375*************   -->
+
+</flows>
