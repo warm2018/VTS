@@ -1,7 +1,0 @@
-import traci
-
-def Outlist_speedset(Single_IdList,Single_LaneList):    
-    ####INIitialize the every direction's List
-    for i in range(len(Single_LaneList)):
-        if Single_LaneList[i].find("o") != -1:
-            traci.vehicle.setSpeedMode(Single_IdList[i],31)

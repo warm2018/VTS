@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/19 22:40:03 by Eclipse SUMO GUI Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../cfg/intersection.net.xml"/>
+        <route-files value="../cfg/intersectiontest.rou.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="../output/queue.xml"/>
+        <tripinfo-output value="../output/tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="100"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="53203"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="j2i.0" depart="3.00" departLane="j2i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="30.00" arrivalLane="j3o_0" arrivalPos="138.65" arrivalSpeed="11.91" duration="27.00" routeLength="277.20" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.50" rerouteNo="0" devices="tripinfo_j2i.0" vType="car" speedFactor="1.08" vaporized=""/>
+</tripinfos>
