@@ -49,5 +49,4 @@ Avar_queuelength = float(Sum_queuelength / Number_car)
 print("**************************trip statistic******************************")
 print("AVARAGE-waitTIME%.2fs\n AVARAGE_waitCOUNT:%0.2f time \n trip_delay:%.2fs\n" % (Avar_waittime,Avar_waitcount,Avar_timeloss))
 print("*************************queue statistic*****************************")
-
 print("AVARAGE-queueTIME%.2fs\n AVARAGE_queueLENGTH:%0.2f M \n" % (Avar_queuetime,Avar_queuelength))

@@ -1,17 +1,21 @@
 <flows>
 	<vType id="car" accel="2" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="20" guiShape="passenger" lcStrategic="1000000000" lcCooperative="1.0"  lcAssertive="100"/>
-	<flow id="a1i" type="car" from="a1i" begin="0" end="3600" probability="0.5"/>
-	<flow id="b1i" type="car" from="b1i" begin="0" end="3600" probability="0.5"/>
-	<flow id="b2i" type="car" from="b2i" begin="0" end="3600" probability="0.5"/>    
-	<flow id="c2i" type="car" from="c2i" begin="0" end="3600" probability="0.5"/>
+	<flow id="a1i" type="car" from="a1i" begin="0" end="3600" probability="0.333"/>
+	<flow id="b1i" type="car" from="b1i" begin="0" end="3600" probability="0.333"/>
+	<flow id="b2i" type="car" from="b2i" begin="0" end="3600" probability="0.333"/>    
+	<flow id="c2i" type="car" from="c2i" begin="0" end="3600" probability="0.333"/>
 
-    <flow id="j2i" type="car" from="j2i" begin="0" end="3600" probability="0.5"/>
-    <flow id="j3i" type="car" from="j3i" begin="0" end="3600" probability="0.5"/>
-    <flow id="h3i" type="car" from="h3i" begin="0" end="3600" probability="0.5"/>    
-    <flow id="g3i" type="car" from="g3i" begin="0" end="3600" probability="0.5"/>
+    <flow id="j2i" type="car" from="j2i" begin="0" end="3600" probability="0.333"/>
+    <flow id="j3i" type="car" from="j3i" begin="0" end="3600" probability="0.333"/>
+    <flow id="h3i" type="car" from="h3i" begin="0" end="3600" probability="0.333"/>    
+    <flow id="g3i" type="car" from="g3i" begin="0" end="3600" probability="0.333"/>
 
-    <flow id="g4i" type="car" from="g4i" begin="0" end="3600" probability="0.5"/>    
-    <flow id="f4i" type="car" from="f4i" begin="0" end="3600" probability="0.5"/>
-    <flow id="e4i" type="car" from="e4i" begin="0" end="3600" probability="0.5"/>    
-    <flow id="e1i" type="car" from="e1i" begin="0" end="3600" probability="0.5"/>   
+    <flow id="g4i" type="car" from="g4i" begin="0" end="3600" probability="0.333"/>    
+    <flow id="f4i" type="car" from="f4i" begin="0" end="3600" probability="0.333"/>
+    <flow id="e4i" type="car" from="e4i" begin="0" end="3600" probability="0.333"/>    
+    <flow id="e1i" type="car" from="e1i" begin="0" end="3600" probability="0.333"/>
+
+    <!--*************100: 0.083****150: 0.125 ****200:0.167****250:0.208************* -->
+    <!--*************300: 0.250****350: 0.292 ****400:0.333****450:0.375************* -->
+    <!--*************500: 0.417****550: 0.458 ****600:0.5****  650:0.375************* -->   
 </flows>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 06/13/19 20:51:30 by Eclipse SUMO GUI Version 1.2.0
+<!-- generated on 06/29/19 11:04:17 by Eclipse SUMO GUI Version 1.2.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -24,20 +24,11 @@
     </processing>
 
     <traci_server>
-        <remote-port value="51344"/>
+        <remote-port value="53862"/>
     </traci_server>
 
 </configuration>
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
-    <tripinfo id="a1i.0" depart="2.00" departLane="a1i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="27.00" arrivalLane="a2o_0" arrivalPos="136.40" arrivalSpeed="13.21" duration="25.00" routeLength="276.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.30" rerouteNo="0" devices="tripinfo_a1i.0" vType="car" speedFactor="0.94" vaporized=""/>
-    <tripinfo id="a2i.0" depart="3.00" departLane="a2i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="28.00" arrivalLane="a3o_0" arrivalPos="136.40" arrivalSpeed="14.12" duration="25.00" routeLength="276.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.26" rerouteNo="0" devices="tripinfo_a2i.0" vType="car" speedFactor="1.01" vaporized=""/>
-    <tripinfo id="a3i.0" depart="0.00" departLane="a3i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="30.00" arrivalLane="a1o_1" arrivalPos="136.40" arrivalSpeed="14.63" duration="30.00" routeLength="294.90" waitingTime="2.00" waitingCount="2" stopTime="0.00" timeLoss="9.60" rerouteNo="0" devices="tripinfo_a3i.0" vType="car" speedFactor="1.06" vaporized=""/>
-    <tripinfo id="a3i.1" depart="6.00" departLane="a3i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="34.00" arrivalLane="a1o_1" arrivalPos="136.40" arrivalSpeed="14.28" duration="28.00" routeLength="294.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.89" rerouteNo="0" devices="tripinfo_a3i.1" vType="car" speedFactor="1.05" vaporized=""/>
-    <tripinfo id="a2i.3" depart="11.00" departLane="a2i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="36.00" arrivalLane="a3o_0" arrivalPos="136.40" arrivalSpeed="14.62" duration="25.00" routeLength="276.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.28" rerouteNo="0" devices="tripinfo_a2i.3" vType="car" speedFactor="0.99" vaporized=""/>
-    <tripinfo id="a1i.6" depart="13.00" departLane="a1i_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="36.00" arrivalLane="a3o_1" arrivalPos="136.40" arrivalSpeed="13.43" duration="23.00" routeLength="294.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.20" rerouteNo="0" devices="tripinfo_a1i.6" vType="car@a1i.6" speedFactor="0.93" vaporized=""/>
-    <tripinfo id="a4i.2" depart="13.00" departLane="a4i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="36.00" arrivalLane="a3o_2" arrivalPos="136.40" arrivalSpeed="13.48" duration="23.00" routeLength="292.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.30" rerouteNo="0" devices="tripinfo_a4i.2" vType="car@a4i.2" speedFactor="0.94" vaporized=""/>
-    <tripinfo id="a2i.1" depart="6.00" departLane="a2i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="37.00" arrivalLane="a1o_2" arrivalPos="136.40" arrivalSpeed="11.25" duration="31.00" routeLength="292.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.98" rerouteNo="0" devices="tripinfo_a2i.1" vType="car" speedFactor="0.83" vaporized=""/>
-    <tripinfo id="a4i.3" depart="14.00" departLane="a4i_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="39.00" arrivalLane="a1o_0" arrivalPos="136.40" arrivalSpeed="13.94" duration="25.00" routeLength="276.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.71" rerouteNo="0" devices="tripinfo_a4i.3" vType="car" speedFactor="1.16" vaporized=""/>
 </tripinfos>
